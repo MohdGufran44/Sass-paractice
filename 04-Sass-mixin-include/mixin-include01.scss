@@ -1,0 +1,11 @@
+@mixin importent-text{
+  color: chartreuse;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+.danger{
+  @include importent-text;
+  background-color: red;
+}

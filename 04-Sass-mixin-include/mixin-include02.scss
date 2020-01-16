@@ -1,0 +1,10 @@
+@mixin bordered($color, $width){
+  border:$width solid $color;
+}
+
+.paragraph01{
+  @include bordered(green,1px);
+}
+.paragraph02{
+  @include bordered(red,2px);
+}

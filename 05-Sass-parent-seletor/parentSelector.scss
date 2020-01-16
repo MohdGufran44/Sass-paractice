@@ -1,0 +1,12 @@
+a{
+  color: chartreuse;
+
+  &:active,
+  &:focus{
+    color: red;
+  }
+
+  &:visited{
+    color: purple;
+  }
+}
