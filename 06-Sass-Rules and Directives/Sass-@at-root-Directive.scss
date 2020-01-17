@@ -1,0 +1,37 @@
+//.Component{
+//  .h2con{
+//    color: black;
+//    .is-active & {
+//      color: blue;
+//    }
+//  }
+//}
+
+//.Component{
+//  .h2con{
+//    color: black;
+//    .is-active& {
+//      color: blue;
+//    }
+//  }
+//}
+
+//
+//.Component{
+//  .h2con{
+//    color: black;
+//    .is-active#{&} {
+//      color: blue;
+//    }
+//  }
+//}
+
+//to solve above problem @ta-roots came in to picture
+.Component{
+  .h2con{
+    color: chartreuse;
+    @at-root .is-active#{&} {
+      color: blue;
+    }
+  }
+}

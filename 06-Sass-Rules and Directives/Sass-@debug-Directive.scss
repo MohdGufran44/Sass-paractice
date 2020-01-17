@@ -1,0 +1,32 @@
+//$font-size: 10px + 20px;
+//$style:(
+//  color:#bdc3c7
+//);
+//
+//.container{
+//  @debug $style;
+//  @debug $font-size;
+//}
+
+//$color-blue: #1c94c6;
+//$font-sizes: sp, p, bq, heading, hero;
+//
+//
+//
+//$colors:(
+//  brand-red:#c0392b,
+//  brand-blue: #2980b9,
+//  text-gray: #2c3e50,
+//  text-silver: #bdc3c7
+//);
+//.h2con{
+//  @debug $color-blue;
+//  @debug $font-sizes;
+//  @debug $colors;
+//}
+
+$color: #fff;
+div{
+  background: $color;
+  @debug "The Color is: #{$color}";
+}

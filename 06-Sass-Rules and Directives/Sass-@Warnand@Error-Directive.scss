@@ -1,0 +1,11 @@
+$background:  #f0de26;
+$color:  #26f08b;
+
+div{
+  background:$background;
+  color: $color;
+
+  @if $background==$color{
+    @warn "Background and text are both #{$colour}!";
+  }
+}

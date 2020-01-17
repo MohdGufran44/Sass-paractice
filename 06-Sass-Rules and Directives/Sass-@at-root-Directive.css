@@ -1,0 +1,4 @@
+.Component .h2con {
+  color: chartreuse; }
+  .is-active.Component .h2con {
+    color: blue; }
